@@ -13,6 +13,7 @@ region = "us-east-1"
 profile = "default"
 }
 }
+/*
 ################# EC2 INSTANCE CREATION #########
 data "aws_ami" "ubuntu" {
 most_recent = true
@@ -33,4 +34,4 @@ tags = {
 Name = "terraform-atlantis"
 }
 }
-
+*/
