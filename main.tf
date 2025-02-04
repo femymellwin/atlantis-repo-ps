@@ -3,6 +3,7 @@ provider "aws" {
 region = "us-east-1"
 profile = "default"
 }
+
 ############ SAVING TF STATE FILE #########
 terraform {
 backend "s3" {
